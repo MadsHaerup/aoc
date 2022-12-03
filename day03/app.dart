@@ -26,7 +26,7 @@ int findUpperCaseLetter(String letter) {
   return position;
 }
 void main() {
-  String part = Platform.environment["part"] ?? "part2";
+  String part = Platform.environment["part"] ?? "part1";
   var file = new File('input.txt');
   var items = file.readAsLinesSync();
   List<dynamic> indexOfLowerCaseLetters = [];
